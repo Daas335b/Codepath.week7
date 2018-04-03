@@ -11,18 +11,20 @@ Pentesting Report
  <img src="https://github.com/Daas335b/Codepath.week7/blob/master/cp.wk7.xss.gif">
  
  Steps to recreate: I logged into wordpress as admin.http://wpdistillery.vm/wp-admin I went to a page I created. In the comment section I wrote the following xss <svg/onload=alert('hacker')>
- Affected source code: http://klikki.fi/adv/wordpress2.html CVE-2015-3440
+ Affected source code: WordPress 4.2 http://klikki.fi/adv/wordpress2.html CVE-2015-3440
 Link 1
  Summary:
-2. Vulnerability types: large Media file with XSS
+2. Vulnerability types: Large Media file with XSS
   Tested in version: 4.2
   Fixed in version: 4.7.3
  GIF Walkthrough: 
  
  Steps to recreate: I downloaded a large image file from the internet. One that was more than 2mb. I changed the name of the file to what I wanted to inject. I logged into wordpress as admin.http://wpdistillery.vm/wp-admin and went to the media page where I dragged my large file with the name <svg/onload=alert('5')>
 
+Affected source code:
+ Link 1
 
-Pentesting Report
+
 3. (Required) Vulnerability Name is Denial of Service DOS, CVE-2018-6389
  Summary:
  Vulnerability types:
@@ -31,16 +33,7 @@ Fixed in version: 4.7.5
  GIF Walkthrough: 
  
  
- Steps to recreate: I logged into wordpress as admin.http://wpdistillery.vm/wp-admin I went to a page I created. In the comment section I wrote the following xss <svg/onload-alert('hacker')
- Affected source code: http://klikki.fi/adv/wordpress2.html CVE-2015-3440
-Link 1
- Summary:
-2. Vulnerability types: large Media file with XSS
-Tested in version: 4.2
-Fixed in version: 4.7.3
- GIF Walkthrough: 
  
- Steps to recreate: I downloaded a large image file from the internet. One that was more than 2mb. I changed the name of the file to what I wanted to inject. I logged into wordpress as admin.http://wpdistillery.vm/wp-admin and went to the media page where I dragged my large file with the name
  Affected source code:
 Link 1
 (Required) Vulnerability Name is Denial of Service DOS, CVE-2018-6389
