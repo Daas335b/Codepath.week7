@@ -8,7 +8,7 @@ Pentesting Report
   Tested in version: 4.2
   Fixed in version: 4.7.5
  GIF Walkthrough: 
- 
+ <img src="https://github.com/Daas335b/Codepath.week7/blob/master/cp.wk7.xss.gif">
  
  Steps to recreate: I logged into wordpress as admin.http://wpdistillery.vm/wp-admin I went to a page I created. In the comment section I wrote the following xss <svg/onload=alert('hacker')>
  Affected source code: http://klikki.fi/adv/wordpress2.html CVE-2015-3440
